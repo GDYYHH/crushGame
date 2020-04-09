@@ -1,0 +1,97 @@
+
+203.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 61
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+chips
+  rotate: false
+  xy: 835, 164
+  size: 82, 66
+  orig: 82, 66
+  offset: 0, 0
+  index: -1
+icon
+  rotate: false
+  xy: 440, 207
+  size: 201, 23
+  orig: 201, 23
+  offset: 0, 0
+  index: -1
+lunpan
+  rotate: false
+  xy: 738, 135
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+poker1
+  rotate: true
+  xy: 440, 102
+  size: 103, 121
+  orig: 103, 121
+  offset: 0, 0
+  index: -1
+poker2
+  rotate: false
+  xy: 563, 93
+  size: 87, 112
+  orig: 87, 112
+  offset: 0, 0
+  index: -1
+poker3
+  rotate: false
+  xy: 652, 119
+  size: 84, 111
+  orig: 84, 111
+  offset: 0, 0
+  index: -1
+poker4
+  rotate: false
+  xy: 331, 108
+  size: 107, 122
+  orig: 107, 122
+  offset: 0, 0
+  index: -1
+poker5
+  rotate: false
+  xy: 214, 105
+  size: 115, 125
+  orig: 115, 125
+  offset: 0, 0
+  index: -1
+touzi1
+  rotate: false
+  xy: 272, 61
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+touzi2
+  rotate: true
+  xy: 214, 51
+  size: 52, 56
+  orig: 52, 56
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 919, 185
+  size: 80, 45
+  orig: 80, 45
+  offset: 0, 0
+  index: -1
+zibg
+  rotate: false
+  xy: 2, 2
+  size: 203, 57
+  orig: 203, 57
+  offset: 0, 0
+  index: -1

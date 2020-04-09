@@ -1,0 +1,105 @@
+{
+"skeleton": { "hash": "TCY766pUO4/BeO+wntpXjePaxds", "spine": "3.7.94", "width": 212, "height": 183, "images": "E:/UI/扎金花/images/", "audio": "E:/UI/扎金花" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "zi", "parent": "root", "x": 151, "y": 82.5 },
+	{ "name": "poker", "parent": "root", "x": 116, "y": 179 },
+	{ "name": "chips", "parent": "root", "x": 182.5, "y": 155 },
+	{ "name": "bg", "parent": "root", "x": 151, "y": 151.5 },
+	{ "name": "poker2", "parent": "poker", "length": 116.63, "rotation": 56.62, "x": -1.02, "y": -60.7 },
+	{ "name": "poker3", "parent": "poker", "length": 119.87, "rotation": 80.42, "x": -3.62, "y": -59.25 },
+	{ "name": "poker4", "parent": "poker", "length": 101.16, "rotation": 97.55, "x": -1.89, "y": -60.7 },
+	{ "name": "chips2", "parent": "chips", "length": 26.91, "rotation": -64, "x": -16.73, "y": 7.93 }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg", "attachment": "bg" },
+	{ "name": "chips", "bone": "chips2", "attachment": "chips" },
+	{ "name": "poker3", "bone": "poker4", "attachment": "poker3" },
+	{ "name": "poker2", "bone": "poker3", "attachment": "poker2" },
+	{ "name": "poker1", "bone": "poker2", "attachment": "poker1" },
+	{ "name": "gold", "bone": "bg", "attachment": "gold" },
+	{ "name": "zibg", "bone": "zi", "attachment": "zibg" },
+	{ "name": "zi", "bone": "zi", "attachment": "zi" },
+	{ "name": "icon", "bone": "zi", "attachment": "icon" }
+],
+"skins": {
+	"default": {
+		"bg": {
+			"bg": { "width": 210, "height": 169 }
+		},
+		"chips": {
+			"chips": { "x": 14.46, "y": 11.56, "rotation": 64, "width": 151, "height": 144 }
+		},
+		"gold": {
+			"gold": { "x": -63.5, "y": -51, "width": 71, "height": 71 }
+		},
+		"icon": {
+			"icon": { "x": -0.5, "width": 201, "height": 23 }
+		},
+		"poker1": {
+			"poker1": { "x": 53.04, "y": 4.38, "rotation": -56.62, "width": 101, "height": 114 }
+		},
+		"poker2": {
+			"poker2": { "x": 59.03, "y": 6.28, "rotation": -80.42, "width": 106, "height": 120 }
+		},
+		"poker3": {
+			"poker3": { "x": 49.8, "y": 5.11, "rotation": -97.55, "width": 91, "height": 106 }
+		},
+		"zi": {
+			"zi": { "width": 118, "height": 45 }
+		},
+		"zibg": {
+			"zibg": { "x": 0.5, "y": 2, "width": 203, "height": 57 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"poker2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{
+						"time": 2,
+						"angle": -9.6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"poker4": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": 9.6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"chips2": {
+				"shear": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": 0,
+						"y": -8.4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,102 @@
+{
+"skeleton": { "hash": "MRDc6nAvvLZutUpjFPGzbfk4fCY", "spine": "3.7.94", "width": 210, "height": 191, "images": "E:/UI/水果机/images/", "audio": "E:/UI/水果机" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "zi", "parent": "root", "x": 151, "y": 82.5 },
+	{ "name": "shuiguo3", "parent": "root", "x": 117, "y": 156.5 },
+	{ "name": "shuiguo2", "parent": "root", "x": 203, "y": 149.5 },
+	{ "name": "shuiguo1", "parent": "root", "x": 171, "y": 206 },
+	{ "name": "bg", "parent": "root", "x": 151, "y": 151.5 }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg", "attachment": "bg" },
+	{ "name": "shuiguo3", "bone": "shuiguo3", "attachment": "shuiguo3" },
+	{ "name": "shuiguo2", "bone": "shuiguo2", "attachment": "shuiguo2" },
+	{ "name": "shuiguo1", "bone": "shuiguo1", "attachment": "shuiguo1" },
+	{ "name": "zibg", "bone": "zi", "attachment": "zibg" },
+	{ "name": "zi", "bone": "zi", "attachment": "zi" },
+	{ "name": "icon", "bone": "zi", "attachment": "icon" }
+],
+"skins": {
+	"default": {
+		"bg": {
+			"bg": { "width": 210, "height": 169 }
+		},
+		"icon": {
+			"icon": { "x": -0.5, "width": 201, "height": 23 }
+		},
+		"shuiguo1": {
+			"shuiguo1": { "width": 76, "height": 82 }
+		},
+		"shuiguo2": {
+			"shuiguo2": { "width": 106, "height": 93 }
+		},
+		"shuiguo3": {
+			"shuiguo3": { "width": 110, "height": 113 }
+		},
+		"zi": {
+			"zi": { "width": 120, "height": 45 }
+		},
+		"zibg": {
+			"zibg": { "x": 0.5, "y": 2, "width": 203, "height": 57 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"shuiguo3": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": -8,
+						"y": -4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"shuiguo2": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": 8,
+						"y": -2,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"shuiguo1": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": 0,
+						"y": 8,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

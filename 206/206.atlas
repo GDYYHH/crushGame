@@ -1,0 +1,76 @@
+
+206.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 61
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+car
+  rotate: false
+  xy: 214, 121
+  size: 229, 109
+  orig: 229, 109
+  offset: 0, 0
+  index: -1
+dollar1
+  rotate: true
+  xy: 445, 163
+  size: 67, 43
+  orig: 67, 43
+  offset: 0, 0
+  index: -1
+dollar2
+  rotate: false
+  xy: 207, 5
+  size: 54, 41
+  orig: 54, 41
+  offset: 0, 0
+  index: -1
+dollar3
+  rotate: false
+  xy: 263, 12
+  size: 28, 34
+  orig: 28, 34
+  offset: 0, 0
+  index: -1
+dollar4
+  rotate: false
+  xy: 445, 129
+  size: 37, 32
+  orig: 37, 32
+  offset: 0, 0
+  index: -1
+gold
+  rotate: false
+  xy: 370, 14
+  size: 112, 80
+  orig: 112, 80
+  offset: 0, 0
+  index: -1
+icon
+  rotate: false
+  xy: 214, 96
+  size: 201, 23
+  orig: 201, 23
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 214, 48
+  size: 154, 46
+  orig: 154, 46
+  offset: 0, 0
+  index: -1
+zibg
+  rotate: false
+  xy: 2, 2
+  size: 203, 57
+  orig: 203, 57
+  offset: 0, 0
+  index: -1

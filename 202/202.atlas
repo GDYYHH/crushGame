@@ -1,0 +1,55 @@
+
+202.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 61
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+icon
+  rotate: false
+  xy: 214, 207
+  size: 201, 23
+  orig: 201, 23
+  offset: 0, 0
+  index: -1
+shuiguo1
+  rotate: false
+  xy: 326, 123
+  size: 76, 82
+  orig: 76, 82
+  offset: 0, 0
+  index: -1
+shuiguo2
+  rotate: true
+  xy: 417, 124
+  size: 106, 93
+  orig: 106, 93
+  offset: 0, 0
+  index: -1
+shuiguo3
+  rotate: false
+  xy: 214, 92
+  size: 110, 113
+  orig: 110, 113
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 214, 45
+  size: 120, 45
+  orig: 120, 45
+  offset: 0, 0
+  index: -1
+zibg
+  rotate: false
+  xy: 2, 2
+  size: 203, 57
+  orig: 203, 57
+  offset: 0, 0
+  index: -1

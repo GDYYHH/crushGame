@@ -1,0 +1,162 @@
+{
+"skeleton": { "hash": "GAaDKDfwDDVwCPzxHiiOuVZgKiw", "spine": "3.7.94", "width": 215, "height": 180, "images": "E:/UI/十三水/images/", "audio": "E:/UI/十三水" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "zi", "parent": "root", "x": 151, "y": 82.5 },
+	{ "name": "poker", "parent": "root" },
+	{ "name": "bg", "parent": "root" },
+	{ "name": "fir", "parent": "root", "x": 140.5, "y": 144 },
+	{ "name": "poker2", "parent": "poker", "length": 138.96, "rotation": 37.69, "x": 130.59, "y": 107.41 },
+	{ "name": "poker3", "parent": "poker", "length": 139.58, "rotation": 48.32, "x": 116.31, "y": 108.13 },
+	{ "name": "poker4", "parent": "poker", "length": 138.08, "rotation": 60.92, "x": 104.89, "y": 105.27 },
+	{ "name": "poker5", "parent": "poker", "length": 137.85, "rotation": 75.6, "x": 104.17, "y": 88.85 },
+	{ "name": "fir2", "parent": "fir", "length": 196.38, "rotation": 39.25, "x": -75.6, "y": -65.15 }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg", "attachment": "bg" },
+	{ "name": "poker4", "bone": "poker5", "attachment": "poker4" },
+	{ "name": "poker3", "bone": "poker4", "attachment": "poker3" },
+	{ "name": "poker2", "bone": "poker3", "attachment": "poker2" },
+	{ "name": "poker1", "bone": "poker2", "attachment": "poker1" },
+	{ "name": "fir", "bone": "fir2", "attachment": "fir" },
+	{ "name": "gold", "bone": "bg", "attachment": "gold" },
+	{ "name": "zibg", "bone": "zi", "attachment": "zibg" },
+	{ "name": "zi", "bone": "zi", "attachment": "zi" },
+	{ "name": "icon", "bone": "zi", "attachment": "icon" }
+],
+"skins": {
+	"default": {
+		"bg": {
+			"bg": { "x": 151, "y": 151.5, "width": 210, "height": 169 }
+		},
+		"fir": {
+			"fir": { "x": 99.76, "y": 2.63, "rotation": -39.25, "width": 159, "height": 140 }
+		},
+		"gold": {
+			"gold": { "x": 187.5, "y": 118.5, "width": 147, "height": 91 }
+		},
+		"icon": {
+			"icon": { "x": -0.5, "width": 201, "height": 23 }
+		},
+		"poker1": {
+			"poker1": { "x": 67.96, "y": -1.85, "rotation": -37.69, "width": 121, "height": 143 }
+		},
+		"poker2": {
+			"poker2": { "x": 68.25, "y": -2.41, "rotation": -48.32, "width": 103, "height": 131 }
+		},
+		"poker3": {
+			"poker3": { "x": 63.1, "y": -3.94, "rotation": -60.92, "width": 106, "height": 133 }
+		},
+		"poker4": {
+			"poker4": { "x": 69.71, "y": 0.52, "rotation": -75.6, "width": 126, "height": 145 }
+		},
+		"zi": {
+			"zi": { "width": 118, "height": 45 }
+		},
+		"zibg": {
+			"zibg": { "x": 0.5, "y": 2, "width": 203, "height": 57 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"poker2": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": 8.4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"poker3": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": 2.4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"poker4": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": -3.6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"poker5": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": -7.2,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"fir2": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": 13.2,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"angle": 13.2,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8333,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1,
+						"angle": 13.2,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.1667, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

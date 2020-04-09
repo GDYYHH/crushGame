@@ -1,0 +1,62 @@
+
+204.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 61
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+gold1
+  rotate: false
+  xy: 398, 141
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+gold2
+  rotate: false
+  xy: 398, 105
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+gold3
+  rotate: false
+  xy: 480, 205
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+icon
+  rotate: false
+  xy: 214, 43
+  size: 201, 23
+  orig: 201, 23
+  offset: 0, 0
+  index: -1
+yu
+  rotate: true
+  xy: 214, 68
+  size: 162, 182
+  orig: 162, 182
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 398, 184
+  size: 80, 46
+  orig: 80, 46
+  offset: 0, 0
+  index: -1
+zibg
+  rotate: false
+  xy: 2, 2
+  size: 203, 57
+  orig: 203, 57
+  offset: 0, 0
+  index: -1

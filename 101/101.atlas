@@ -1,0 +1,83 @@
+
+101.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 73
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+huzi1
+  rotate: false
+  xy: 2, 2
+  size: 26, 10
+  orig: 26, 10
+  offset: 0, 0
+  index: -1
+huzi2
+  rotate: false
+  xy: 331, 104
+  size: 23, 13
+  orig: 23, 13
+  offset: 0, 0
+  index: -1
+icon
+  rotate: false
+  xy: 331, 219
+  size: 201, 23
+  orig: 201, 23
+  offset: 0, 0
+  index: -1
+poker1
+  rotate: false
+  xy: 637, 151
+  size: 77, 91
+  orig: 77, 91
+  offset: 0, 0
+  index: -1
+poker2
+  rotate: false
+  xy: 441, 117
+  size: 94, 100
+  orig: 94, 100
+  offset: 0, 0
+  index: -1
+poker3
+  rotate: false
+  xy: 537, 145
+  size: 98, 97
+  orig: 98, 97
+  offset: 0, 0
+  index: -1
+poker4
+  rotate: false
+  xy: 331, 119
+  size: 108, 98
+  orig: 108, 98
+  offset: 0, 0
+  index: -1
+ren
+  rotate: false
+  xy: 214, 76
+  size: 115, 166
+  orig: 115, 166
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 716, 196
+  size: 116, 46
+  orig: 116, 46
+  offset: 0, 0
+  index: -1
+zibg
+  rotate: false
+  xy: 2, 14
+  size: 203, 57
+  orig: 203, 57
+  offset: 0, 0
+  index: -1

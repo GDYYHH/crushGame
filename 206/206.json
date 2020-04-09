@@ -1,0 +1,175 @@
+{
+"skeleton": { "hash": "Ynx30htNa+bLV8eLpNmar3386sI", "spine": "3.7.94", "width": 229, "height": 198, "images": "E:/UI/psd/奔驰宝马/images/", "audio": "E:/UI/psd/奔驰宝马" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "zi", "parent": "root", "x": 152, "y": 83 },
+	{ "name": "gold", "parent": "root", "x": 195, "y": 180 },
+	{ "name": "dollar4", "parent": "root", "x": 167.5, "y": 239 },
+	{ "name": "dollar3", "parent": "root", "x": 78, "y": 203 },
+	{ "name": "dollar2", "parent": "root", "x": 124, "y": 214.5 },
+	{ "name": "dollar1", "parent": "root", "x": 82.5, "y": 115.5 },
+	{ "name": "bg", "parent": "root", "x": 152, "y": 152.5 },
+	{ "name": "car", "parent": "root", "x": 152.5, "y": 143.5 }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg", "attachment": "bg" },
+	{ "name": "dollar4", "bone": "dollar4", "attachment": "dollar4" },
+	{ "name": "dollar3", "bone": "dollar3", "attachment": "dollar3" },
+	{ "name": "dollar2", "bone": "dollar2", "attachment": "dollar2" },
+	{ "name": "gold", "bone": "gold", "attachment": "gold" },
+	{ "name": "car", "bone": "car", "attachment": "car" },
+	{ "name": "dollar1", "bone": "dollar1", "attachment": "dollar1" },
+	{ "name": "zibg", "bone": "zi", "attachment": "zibg" },
+	{ "name": "zi", "bone": "zi", "attachment": "zi" },
+	{ "name": "icon", "bone": "zi", "attachment": "icon" }
+],
+"skins": {
+	"default": {
+		"bg": {
+			"bg": { "width": 210, "height": 169 }
+		},
+		"car": {
+			"car": { "width": 229, "height": 109 }
+		},
+		"dollar1": {
+			"dollar1": { "width": 67, "height": 43 }
+		},
+		"dollar2": {
+			"dollar2": { "width": 54, "height": 41 }
+		},
+		"dollar3": {
+			"dollar3": { "width": 28, "height": 34 }
+		},
+		"dollar4": {
+			"dollar4": { "width": 37, "height": 32 }
+		},
+		"gold": {
+			"gold": { "width": 112, "height": 80 }
+		},
+		"icon": {
+			"icon": { "x": -0.5, "y": 0.5, "width": 201, "height": 23 }
+		},
+		"zi": {
+			"zi": { "width": 154, "height": 46 }
+		},
+		"zibg": {
+			"zibg": { "x": 0.5, "y": 2.5, "width": 203, "height": 57 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"dollar1": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": -6,
+						"y": -6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"dollar2": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": -6,
+						"y": 6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"dollar3": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": -8,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"dollar4": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": 0,
+						"y": 6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"car": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.6667,
+						"x": 6,
+						"y": -6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.3333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.5,
+						"x": 6,
+						"y": -6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.6667,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.8333,
+						"x": 6,
+						"y": -6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

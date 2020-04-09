@@ -1,0 +1,62 @@
+
+106.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 61
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+chips
+  rotate: false
+  xy: 214, 113
+  size: 155, 117
+  orig: 155, 117
+  offset: 0, 0
+  index: -1
+icon
+  rotate: false
+  xy: 778, 207
+  size: 201, 23
+  orig: 201, 23
+  offset: 0, 0
+  index: -1
+poker1
+  rotate: true
+  xy: 515, 110
+  size: 120, 136
+  orig: 120, 136
+  offset: 0, 0
+  index: -1
+poker2
+  rotate: true
+  xy: 653, 125
+  size: 105, 123
+  orig: 105, 123
+  offset: 0, 0
+  index: -1
+poker3
+  rotate: true
+  xy: 371, 101
+  size: 129, 142
+  orig: 129, 142
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 214, 73
+  size: 86, 38
+  orig: 86, 38
+  offset: 0, 0
+  index: -1
+zibg
+  rotate: false
+  xy: 2, 2
+  size: 203, 57
+  orig: 203, 57
+  offset: 0, 0
+  index: -1

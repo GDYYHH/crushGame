@@ -1,0 +1,125 @@
+{
+"skeleton": { "hash": "i9NQP3bqHQDBF6/3X3b+Ve3wlXI", "spine": "3.7.94", "width": 210, "height": 195, "images": "E:/UI/psd/飞禽走兽/images/", "audio": "E:/UI/psd/飞禽走兽" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bg", "parent": "root", "x": 151, "y": 151.5 },
+	{ "name": "gold1", "parent": "root", "x": 233, "y": 144.5 },
+	{ "name": "gold2", "parent": "root", "x": 135.5, "y": 231.5 },
+	{ "name": "zi", "parent": "root", "x": 151, "y": 82 },
+	{ "name": "shizi", "parent": "root", "x": 187, "y": 180.5 },
+	{ "name": "shizi2", "parent": "shizi", "length": 128.69, "rotation": 75.32, "x": -14.68, "y": -66.49 },
+	{ "name": "shizi3", "parent": "shizi", "length": 115.58, "rotation": 130.84, "x": -43.33, "y": -67.97 }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg", "attachment": "bg" },
+	{ "name": "xiongmao", "bone": "shizi3", "attachment": "xiongmao" },
+	{ "name": "shizi", "bone": "shizi2", "attachment": "shizi" },
+	{ "name": "img", "bone": "bg", "attachment": "img" },
+	{ "name": "gold2", "bone": "gold2", "attachment": "gold2" },
+	{ "name": "gold1", "bone": "gold1", "attachment": "gold1" },
+	{ "name": "zibg", "bone": "zi", "attachment": "zibg" },
+	{ "name": "zi", "bone": "zi", "attachment": "zi" },
+	{ "name": "icon", "bone": "zi", "attachment": "icon" }
+],
+"skins": {
+	"default": {
+		"bg": {
+			"bg": { "width": 210, "height": 169 }
+		},
+		"gold1": {
+			"gold1": { "width": 24, "height": 21 }
+		},
+		"gold2": {
+			"gold2": { "width": 29, "height": 25 }
+		},
+		"icon": {
+			"icon": { "x": -0.5, "y": 0.5, "width": 201, "height": 23 }
+		},
+		"img": {
+			"img": { "x": 0.5, "y": -43.5, "width": 99, "height": 82 }
+		},
+		"shizi": {
+			"shizi": { "x": 68.04, "y": 2.64, "rotation": -75.32, "width": 110, "height": 141 }
+		},
+		"xiongmao": {
+			"xiongmao": { "x": 54.09, "y": -16.13, "rotation": -130.84, "width": 123, "height": 108 }
+		},
+		"zi": {
+			"zi": { "width": 156, "height": 46 }
+		},
+		"zibg": {
+			"zibg": { "x": 0.5, "y": 2.5, "width": 203, "height": 57 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"gold1": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": 8,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"gold2": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": -6,
+						"y": 8,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"shizi3": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": 6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"shizi2": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": -6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

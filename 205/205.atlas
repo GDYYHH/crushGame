@@ -1,0 +1,69 @@
+
+205.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 84
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+gold1
+  rotate: false
+  xy: 2, 2
+  size: 24, 21
+  orig: 24, 21
+  offset: 0, 0
+  index: -1
+gold2
+  rotate: false
+  xy: 451, 228
+  size: 29, 25
+  orig: 29, 25
+  offset: 0, 0
+  index: -1
+icon
+  rotate: false
+  xy: 207, 3
+  size: 201, 23
+  orig: 201, 23
+  offset: 0, 0
+  index: -1
+img
+  rotate: false
+  xy: 214, 28
+  size: 99, 82
+  orig: 99, 82
+  offset: 0, 0
+  index: -1
+shizi
+  rotate: false
+  xy: 214, 112
+  size: 110, 141
+  orig: 110, 141
+  offset: 0, 0
+  index: -1
+xiongmao
+  rotate: false
+  xy: 326, 145
+  size: 123, 108
+  orig: 123, 108
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 326, 97
+  size: 156, 46
+  orig: 156, 46
+  offset: 0, 0
+  index: -1
+zibg
+  rotate: false
+  xy: 2, 25
+  size: 203, 57
+  orig: 203, 57
+  offset: 0, 0
+  index: -1
