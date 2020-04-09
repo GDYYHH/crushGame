@@ -1,0 +1,90 @@
+
+406.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 84
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+chips
+  rotate: false
+  xy: 405, 34
+  size: 101, 107
+  orig: 101, 107
+  offset: 0, 0
+  index: -1
+crown
+  rotate: true
+  xy: 333, 112
+  size: 82, 70
+  orig: 82, 70
+  offset: 0, 0
+  index: -1
+gold1
+  rotate: false
+  xy: 61, 7
+  size: 60, 50
+  orig: 60, 50
+  offset: 0, 0
+  index: -1
+gold2
+  rotate: true
+  xy: 308, 122
+  size: 24, 22
+  orig: 24, 22
+  offset: 0, 0
+  index: -1
+gold3
+  rotate: false
+  xy: 2, 2
+  size: 57, 55
+  orig: 57, 55
+  offset: 0, 0
+  index: -1
+gold4
+  rotate: true
+  xy: 308, 37
+  size: 73, 55
+  orig: 73, 55
+  offset: 0, 0
+  index: -1
+icon
+  rotate: false
+  xy: 2, 59
+  size: 201, 23
+  orig: 201, 23
+  offset: 0, 0
+  index: -1
+poke1
+  rotate: false
+  xy: 214, 35
+  size: 92, 111
+  orig: 92, 111
+  offset: 0, 0
+  index: -1
+poke2
+  rotate: false
+  xy: 419, 143
+  size: 91, 110
+  orig: 91, 110
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 214, 148
+  size: 117, 46
+  orig: 117, 46
+  offset: 0, 0
+  index: -1
+zibg
+  rotate: false
+  xy: 214, 196
+  size: 203, 57
+  orig: 203, 57
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,128 @@
+{
+"skeleton": { "hash": "crIvuP5ukkmdee9cVahIEVdXa84", "spine": "3.7.94", "width": 210, "height": 183.19, "images": "E:/UI/psd/时时彩/images/", "audio": "E:/UI/psd/时时彩" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "zi", "parent": "root", "x": 151, "y": 82 },
+	{ "name": "qiu1", "parent": "root", "x": 113, "y": 160 },
+	{ "name": "qiu2", "parent": "root", "x": 191, "y": 133 },
+	{ "name": "dollar", "parent": "root", "x": 181, "y": 199 },
+	{ "name": "bg", "parent": "root", "x": 151, "y": 151.5 }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg", "attachment": "bg" },
+	{ "name": "dollar", "bone": "dollar", "attachment": "dollar" },
+	{ "name": "qiu2", "bone": "qiu2", "attachment": "qiu2" },
+	{ "name": "qiu1", "bone": "qiu1", "attachment": "qiu1" },
+	{ "name": "zibg", "bone": "zi", "attachment": "zibg" },
+	{ "name": "zi", "bone": "zi", "attachment": "zi" },
+	{ "name": "icon", "bone": "zi", "attachment": "icon" }
+],
+"skins": {
+	"default": {
+		"bg": {
+			"bg": { "width": 210, "height": 169 }
+		},
+		"dollar": {
+			"dollar": { "width": 120, "height": 80 }
+		},
+		"icon": {
+			"icon": { "x": -0.5, "y": 0.5, "rotation": -0.11, "width": 201, "height": 23 }
+		},
+		"qiu1": {
+			"qiu1": { "width": 104, "height": 104 }
+		},
+		"qiu2": {
+			"qiu2": { "width": 84, "height": 84 }
+		},
+		"zi": {
+			"zi": { "width": 118, "height": 46 }
+		},
+		"zibg": {
+			"zibg": { "x": -0.5, "y": 2.5, "rotation": -0.11, "width": 203, "height": 57 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"qiu2": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": -36,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": 6.47,
+						"y": -4.7,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"qiu1": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": 36,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": -8.83,
+						"y": -1.47,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"dollar": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": 0,
+						"y": 6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,187 @@
+{
+"skeleton": { "hash": "6Av36ek4BIuL/yA0mtB5z0hfyJU", "spine": "3.7.94", "width": 210, "height": 180, "images": "E:/UI/psd/幸运28/images/", "audio": "E:/UI/psd/幸运28" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "zi", "parent": "root", "x": 152, "y": 82 },
+	{ "name": "touzi", "parent": "root", "x": 209.5, "y": 165 },
+	{ "name": "qiu", "parent": "root", "x": 157, "y": 148.5 },
+	{ "name": "gold", "parent": "root", "x": 119, "y": 122.5 },
+	{ "name": "cup", "parent": "root", "x": 124.5, "y": 161.5 },
+	{ "name": "bg", "parent": "root", "x": 151, "y": 151.5 },
+	{ "name": "cup2", "parent": "cup", "length": 104.93, "rotation": 90, "x": 0.18, "y": -59.59 }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg", "attachment": "bg" },
+	{ "name": "cup", "bone": "cup2", "attachment": "cup" },
+	{ "name": "gold", "bone": "gold", "attachment": "gold" },
+	{ "name": "touzi", "bone": "touzi", "attachment": "touzi" },
+	{ "name": "qiu", "bone": "qiu", "attachment": "qiu" },
+	{ "name": "zibg", "bone": "zi", "attachment": "zibg" },
+	{ "name": "zi", "bone": "zi", "attachment": "zi" },
+	{ "name": "icon", "bone": "zi", "attachment": "icon" }
+],
+"skins": {
+	"default": {
+		"bg": {
+			"bg": { "width": 210, "height": 169 }
+		},
+		"cup": {
+			"cup": { "x": 59.59, "y": 0.18, "rotation": -90, "width": 133, "height": 127 }
+		},
+		"gold": {
+			"gold": { "width": 82, "height": 61 }
+		},
+		"icon": {
+			"icon": { "x": -1.5, "y": 0.5, "width": 201, "height": 23 }
+		},
+		"qiu": {
+			"qiu": { "width": 96, "height": 95 }
+		},
+		"touzi": {
+			"touzi": { "width": 67, "height": 66 }
+		},
+		"zi": {
+			"zi": { "width": 120, "height": 44 }
+		},
+		"zibg": {
+			"zibg": { "x": -0.5, "y": 2.5, "width": 203, "height": 57 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"touzi": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": -30,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": 9.19,
+						"y": 3.93,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"qiu": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": 30,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": 1.06,
+						"y": 1.06,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 1, "y": 1 }
+				]
+			},
+			"cup": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": -4,
+						"y": 8,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"cup2": {
+				"scale": [
+					{
+						"time": 2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.1333,
+						"x": 0.92,
+						"y": 1.08,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.2667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.4,
+						"x": 1.08,
+						"y": 0.92,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.5333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.6667,
+						"x": 0.96,
+						"y": 1.04,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.8,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.9333,
+						"x": 1.04,
+						"y": 0.96,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.0667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

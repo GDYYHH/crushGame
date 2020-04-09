@@ -1,0 +1,83 @@
+
+401.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 61
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+boom
+  rotate: true
+  xy: 435, 115
+  size: 68, 64
+  orig: 68, 64
+  offset: 0, 0
+  index: -1
+gold1
+  rotate: true
+  xy: 207, 19
+  size: 40, 34
+  orig: 40, 34
+  offset: 0, 0
+  index: -1
+gold2
+  rotate: false
+  xy: 333, 94
+  size: 100, 89
+  orig: 100, 89
+  offset: 0, 0
+  index: -1
+icon
+  rotate: false
+  xy: 214, 62
+  size: 201, 23
+  orig: 201, 23
+  offset: 0, 0
+  index: -1
+img1
+  rotate: false
+  xy: 435, 81
+  size: 42, 32
+  orig: 42, 32
+  offset: 0, 0
+  index: -1
+img2
+  rotate: false
+  xy: 479, 88
+  size: 31, 25
+  orig: 31, 25
+  offset: 0, 0
+  index: -1
+img3
+  rotate: false
+  xy: 243, 22
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+img4
+  rotate: false
+  xy: 214, 87
+  size: 117, 143
+  orig: 117, 143
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 333, 185
+  size: 155, 45
+  orig: 155, 45
+  offset: 0, 0
+  index: -1
+zibg
+  rotate: false
+  xy: 2, 2
+  size: 203, 57
+  orig: 203, 57
+  offset: 0, 0
+  index: -1

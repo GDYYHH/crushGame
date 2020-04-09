@@ -1,0 +1,62 @@
+
+303.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 2, 28
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+card1
+  rotate: false
+  xy: 173, 61
+  size: 142, 177
+  orig: 142, 177
+  offset: 0, 0
+  index: -1
+card2
+  rotate: false
+  xy: 317, 90
+  size: 128, 148
+  orig: 128, 148
+  offset: 0, 0
+  index: -1
+icon
+  rotate: false
+  xy: 2, 3
+  size: 201, 23
+  orig: 201, 23
+  offset: 0, 0
+  index: -1
+qiu1
+  rotate: false
+  xy: 447, 95
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+qiu2
+  rotate: false
+  xy: 410, 19
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+zi
+  rotate: true
+  xy: 447, 157
+  size: 81, 46
+  orig: 81, 46
+  offset: 0, 0
+  index: -1
+zibg
+  rotate: false
+  xy: 205, 2
+  size: 203, 57
+  orig: 203, 57
+  offset: 0, 0
+  index: -1

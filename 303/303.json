@@ -1,0 +1,147 @@
+{
+"skeleton": { "hash": "8GB/kDzgJs8UQygdszDVORv7PUU", "spine": "3.7.94", "width": 210, "height": 189, "images": "E:/UI/psd/快三/images/", "audio": "E:/UI/psd/快三" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "zi", "parent": "root", "x": 149.5, "y": 82 },
+	{ "name": "qiu2", "parent": "root", "x": 88.5, "y": 133.5 },
+	{ "name": "qiu1", "parent": "root", "x": 210, "y": 140 },
+	{ "name": "card", "parent": "root", "x": 172, "y": 171 },
+	{ "name": "bg", "parent": "root", "x": 151, "y": 151.5 },
+	{ "name": "card2", "parent": "card", "length": 152.8, "rotation": 146.26, "x": 34.01, "y": -54.03 },
+	{ "name": "card3", "parent": "card", "length": 159.71, "rotation": 45.8, "x": -56.69, "y": -57.63 }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg", "attachment": "bg" },
+	{ "name": "card2", "bone": "card3", "attachment": "card2" },
+	{ "name": "card1", "bone": "card2", "attachment": "card1" },
+	{ "name": "qiu2", "bone": "qiu2", "attachment": "qiu2" },
+	{ "name": "qiu1", "bone": "qiu1", "attachment": "qiu1" },
+	{ "name": "zibg", "bone": "zi", "attachment": "zibg" },
+	{ "name": "zi", "bone": "zi", "attachment": "zi" },
+	{ "name": "icon", "bone": "zi", "attachment": "icon" }
+],
+"skins": {
+	"default": {
+		"bg": {
+			"bg": { "width": 210, "height": 169 }
+		},
+		"card1": {
+			"card1": { "x": 73.52, "y": 1.56, "rotation": -146.26, "width": 142, "height": 177 }
+		},
+		"card2": {
+			"card2": { "x": 80.83, "y": -0.46, "rotation": -45.8, "width": 128, "height": 148 }
+		},
+		"icon": {
+			"icon": { "x": 1, "y": 0.5, "width": 201, "height": 23 }
+		},
+		"qiu1": {
+			"qiu1": { "width": 60, "height": 60 }
+		},
+		"qiu2": {
+			"qiu2": { "width": 69, "height": 69 }
+		},
+		"zi": {
+			"zi": { "width": 81, "height": 46 }
+		},
+		"zibg": {
+			"zibg": { "x": 2, "y": 2.5, "width": 203, "height": 57 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"card2": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": 4.8,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"card3": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": -8.4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"qiu1": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": 30,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": -15.19,
+						"y": -3,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"qiu2": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": -30,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": 15.2,
+						"y": -3,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

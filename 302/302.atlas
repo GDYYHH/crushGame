@@ -1,0 +1,76 @@
+
+302.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 73
+  size: 211, 169
+  orig: 211, 169
+  offset: 0, 0
+  index: -1
+card1
+  rotate: false
+  xy: 215, 108
+  size: 100, 109
+  orig: 100, 109
+  offset: 0, 0
+  index: -1
+card2
+  rotate: false
+  xy: 418, 138
+  size: 84, 104
+  orig: 84, 104
+  offset: 0, 0
+  index: -1
+crown
+  rotate: false
+  xy: 207, 2
+  size: 78, 58
+  orig: 78, 58
+  offset: 0, 0
+  index: -1
+gold
+  rotate: true
+  xy: 287, 3
+  size: 57, 63
+  orig: 57, 63
+  offset: 0, 0
+  index: -1
+icon
+  rotate: false
+  xy: 215, 219
+  size: 201, 23
+  orig: 201, 23
+  offset: 0, 0
+  index: -1
+qiu1
+  rotate: false
+  xy: 317, 118
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+qiu2
+  rotate: false
+  xy: 354, 32
+  size: 83, 84
+  orig: 83, 84
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 215, 62
+  size: 137, 44
+  orig: 137, 44
+  offset: 0, 0
+  index: -1
+zibg
+  rotate: false
+  xy: 2, 14
+  size: 203, 57
+  orig: 203, 57
+  offset: 0, 0
+  index: -1

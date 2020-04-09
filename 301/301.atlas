@@ -1,0 +1,55 @@
+
+301.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 61
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+dollar
+  rotate: true
+  xy: 320, 85
+  size: 120, 80
+  orig: 120, 80
+  offset: 0, 0
+  index: -1
+icon
+  rotate: false
+  xy: 214, 207
+  size: 201, 23
+  orig: 201, 23
+  offset: 0, 0
+  index: -1
+qiu1
+  rotate: false
+  xy: 214, 101
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+qiu2
+  rotate: false
+  xy: 214, 15
+  size: 84, 84
+  orig: 84, 84
+  offset: 0, 0
+  index: -1
+zi
+  rotate: true
+  xy: 402, 87
+  size: 118, 46
+  orig: 118, 46
+  offset: 0, 0
+  index: -1
+zibg
+  rotate: false
+  xy: 2, 2
+  size: 203, 57
+  orig: 203, 57
+  offset: 0, 0
+  index: -1

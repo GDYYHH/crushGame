@@ -1,0 +1,76 @@
+
+403.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baozi
+  rotate: false
+  xy: 214, 83
+  size: 144, 165
+  orig: 144, 165
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 79
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+gold1
+  rotate: false
+  xy: 360, 175
+  size: 117, 73
+  orig: 117, 73
+  offset: 0, 0
+  index: -1
+gold2
+  rotate: true
+  xy: 289, 2
+  size: 54, 59
+  orig: 54, 59
+  offset: 0, 0
+  index: -1
+icon
+  rotate: false
+  xy: 214, 58
+  size: 201, 23
+  orig: 201, 23
+  offset: 0, 0
+  index: -1
+touzi1
+  rotate: false
+  xy: 360, 108
+  size: 61, 65
+  orig: 61, 65
+  offset: 0, 0
+  index: -1
+touzi2
+  rotate: false
+  xy: 423, 111
+  size: 59, 62
+  orig: 59, 62
+  offset: 0, 0
+  index: -1
+touzi3
+  rotate: false
+  xy: 350, 6
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 207, 11
+  size: 80, 45
+  orig: 80, 45
+  offset: 0, 0
+  index: -1
+zibg
+  rotate: false
+  xy: 2, 20
+  size: 203, 57
+  orig: 203, 57
+  offset: 0, 0
+  index: -1

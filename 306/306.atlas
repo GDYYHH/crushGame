@@ -1,0 +1,62 @@
+
+306.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 61
+  size: 210, 169
+  orig: 210, 169
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 214, 93
+  size: 136, 137
+  orig: 136, 137
+  offset: 0, 0
+  index: -1
+gold1
+  rotate: false
+  xy: 352, 157
+  size: 31, 26
+  orig: 31, 26
+  offset: 0, 0
+  index: -1
+gold2
+  rotate: false
+  xy: 352, 129
+  size: 31, 26
+  orig: 31, 26
+  offset: 0, 0
+  index: -1
+gold3
+  rotate: false
+  xy: 385, 158
+  size: 32, 25
+  orig: 32, 25
+  offset: 0, 0
+  index: -1
+icon
+  rotate: false
+  xy: 214, 68
+  size: 201, 23
+  orig: 201, 23
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 352, 185
+  size: 155, 45
+  orig: 155, 45
+  offset: 0, 0
+  index: -1
+zibg
+  rotate: false
+  xy: 2, 2
+  size: 203, 57
+  orig: 203, 57
+  offset: 0, 0
+  index: -1

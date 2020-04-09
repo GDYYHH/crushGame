@@ -1,0 +1,114 @@
+{
+"skeleton": { "hash": "djNLNJpayi9oeRwGFSGJoIo5dxw", "spine": "3.7.94", "width": 249, "height": 232, "images": "E:/UI/龙虎斗/images/", "audio": "E:/UI/龙虎斗" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "zi", "parent": "root", "x": 151.5, "y": 82 },
+	{ "name": "vs", "parent": "root", "x": 158, "y": 146 },
+	{ "name": "long", "parent": "root", "x": 95.5, "y": 166.5 },
+	{ "name": "hu", "parent": "root", "x": 184, "y": 131.5 },
+	{ "name": "bg", "parent": "root", "x": 151, "y": 151.5 }
+],
+"slots": [
+	{ "name": "bg", "bone": "bg", "attachment": "bg" },
+	{ "name": "hu", "bone": "hu", "attachment": "hu" },
+	{ "name": "long", "bone": "long", "attachment": "long" },
+	{ "name": "vs", "bone": "vs", "attachment": "vs" },
+	{ "name": "zibg", "bone": "zi", "attachment": "zibg" },
+	{ "name": "zi", "bone": "zi", "attachment": "zi" },
+	{ "name": "icon", "bone": "zi", "attachment": "icon" }
+],
+"skins": {
+	"default": {
+		"bg": {
+			"bg": { "width": 210, "height": 169 }
+		},
+		"hu": {
+			"hu": { "width": 168, "height": 175 }
+		},
+		"icon": {
+			"icon": { "x": -1, "y": 0.5, "width": 201, "height": 23 }
+		},
+		"long": {
+			"long": { "width": 153, "height": 219 }
+		},
+		"vs": {
+			"vs": { "width": 80, "height": 60 }
+		},
+		"zi": {
+			"zi": { "width": 117, "height": 46 }
+		},
+		"zibg": {
+			"zibg": { "y": 2.5, "width": 203, "height": 57 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"long": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": -8,
+						"y": -8,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"hu": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": 8,
+						"y": 8,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"vs": {
+				"scale": [
+					{
+						"time": 3.4667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.6,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.7333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.8667,
+						"x": 1.3,
+						"y": 1.3,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}
